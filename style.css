@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+.bg {
+  background: url("https://scontent-lax3-1.xx.fbcdn.net/v/t39.30808-6/306914110_10160004373511508_4528572680019064039_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeFWvOFiILQGJ_D5Dy--cM1km6izMsZfIVubqLMyxl8hW0_X1xQreC5F_8KKyK8hrT4&_nc_ohc=6bOEdnI8WIQAX_Pk2v0&tn=hVz0RZG-6vLV_dWb&_nc_ht=scontent-lax3-1.xx&oh=00_AT8JgVRvtFZ7tPhWSQM0pzWdRLOiDl4BovgyjRgm3z1ooA&oe=632960D3")
+    no-repeat center center/cover;
+
+  /* background: url('https://scontent-lax3-1.xx.fbcdn.net/v/t39.30808-6/301925813_10159976009576508_8203684104609308217_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGEQpKueqqKf0MwK77MncwfG8QPnZPXNP4bxA-dk9c0_gE9p_fOMo-WXTXp0wlw2XI&_nc_ohc=8d5ZnVvFbZ8AX-fvjbE&_nc_ht=scontent-lax3-1.xx&oh=00_AT-8K5lpNOlbo3hgOcbjxP7BZ9wnKf8x73dl0LqLiBJliw&oe=6329B32C') no-repeat center center/cover; */
+
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: calc(100vw + 60px);
+  height: calc(100vh + 60px);
+  z-index: -1;
+  filter: blur(0px);
+}
+
+.loading-text {
+  font-size: 50px;
+  color: #fff;
+}
